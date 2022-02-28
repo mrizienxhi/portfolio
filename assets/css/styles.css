@@ -1,0 +1,840 @@
+* { /*ok*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.page { /*ok*/
+  display: inline-grid;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  color: #2F4F4F;
+  align-items: flex-start;
+  }
+
+.header { /*ok*/
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/header.png);
+  z-index: 1;
+}
+
+.img, .img2 {
+  padding: 0 13px;
+}
+
+.img:hover,
+.img2:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.img2 {
+  opacity: 0.65;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.menu { /*ok*/
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  width: 70%;
+  align-items: center;
+}
+
+.content { /*ok*/
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 680px;
+  }
+
+.img-content {
+  justify-content: center;
+  float: left;
+  top: 140px;
+  left: 150px;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  display: block;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border: 1px solid #BFBFBF;
+  ms-transform: rotate(3deg);
+  webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.animazione-testo {
+  float: right;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: flex-start;
+  display: flow-root;
+  padding: 140px 40px 100px 220px;
+  }
+
+#titolo {
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+  text-shadow: 0 0 6px #E6E6FA, 0 0 8px #808080;
+}
+
+.contatti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+.button { /*ok*/
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  color: #2F4F4F;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.button:hover { /*ok*/
+  color: #9370DB;
+  font-size: 26px;
+  text-shadow: white 1px 0 10px;
+  transition: font-size 0.4s;
+  }
+
+.annot:hover { /*ok*/
+  color: purple;
+  text-shadow: pink 3px 0 10px;
+}
+
+.button:link { /*ok*/
+  color: #696969;
+}
+
+.intestazione-form {
+  padding: 30px 50px 7px 50px;
+  background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/header.png);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.intestazione-form > h1 {
+  font-size: 30px;
+}
+
+.intestazione-form > p {
+  font-size: 18px;
+}
+
+.form-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 0;
+}
+
+.form {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 40px 30px 40px;
+  box-shadow: 0 0 20px silver;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+  border: 1px solid #D6D9DC;
+  border-radius: 7px;
+
+  min-height: 110px;
+  padding: 7px;
+  resize: none;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="question"] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 7px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 1px dotted silver;
+  background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/header.png);
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+
+.button2:hover {
+  text-decoration: none;
+  text-shadow: white 1px 0 10px;
+}
+
+p {
+  text-align: left;
+}
+
+.skillcontent {
+  width: 100%;
+  height: 620px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
+  margin-top: -10px;
+}
+
+.titolotimeline {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  /*border: 1px solid blue;*/
+  }
+
+.istruzioni {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.timeline {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  /*border: 2px solid red;*/
+}
+
+.riga {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  }
+
+.colonna {
+  display: flex;
+  border: 1px dotted silver;
+  width: 15%;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40px;
+  background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/header.png);
+  border-radius: 20px;
+}
+
+.riepilogoanno { /*riquadro riepilogativo esperienze*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 7px;
+  width: 100%;
+  height: 380px;
+  margin-top: 40px;
+  font-size: 14px;
+  box-shadow: inset 0 0 15px silver;
+  margin-top: 15px;
+}
+
+/*per iframe pagina esterna*/
+.totale {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid green;*/
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.annot {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid pink;*/
+  color: #2F4F4F;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.anno {
+  padding-top: 5px;
+  color: purple;
+}
+
+.descrizione {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid red;*/
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.titolo {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #DB7093;
+  padding-top: 10px;
+  text-shadow: #FFB6C1 1px 0 10px;
+  /*border: 1px solid pink;*/
+}
+
+.sommario,
+.sommario2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 5px 50px;
+  align-items: center;
+  /*border: 1px solid yellow;*/
+}
+
+.sommario {
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.sommario2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+/*fine formattazione iframe*/
+
+.imgdiploma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.imgqualita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  width: 25%;
+}
+
+.imgbustepaga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  margin-top: 10px;
+}
+
+.imgs2i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 10px 0;
+}
+
+.newjob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-top: 5px;
+}
+
+.totcommento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  box-shadow: 0 0 20px silver;
+}
+
+.avatar {
+  display: flex;
+  justify-content: flex-start;
+  width: 92px;
+  height: 89px;
+  /*border: 1px solid red;*/
+  border-radius: 50px;
+  background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/avatar.png);
+  margin-left: 10px;
+}
+
+.commento {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.nomeutente {
+  display: flex;
+  width: 100%;
+  /*border: 1px solid green;*/
+  align-items: flex-start;
+  margin: 5px 10px;
+  padding-top: 5px;
+  font-family: helvetica;
+}
+
+.commentoutente {
+  display: flex;
+  width: 100%;
+  /*border: 1px solid red;*/
+  align-items: flex-start;
+  margin: 2px 10px;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 400px ) {
+
+    .page {
+      background-color: white;
+    }
+
+    .content {
+      align-items: center;
+      height: 800px;
+    }
+
+    .img-content {
+      display: none;
+    }
+
+    .animazione-testo {
+      display: flex;
+      width: 100%;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+      display: block;
+      padding: 100px 60px 80px 60px;
+    }
+
+    .menu { /*ok*/
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      height: 65px;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .button { /*ok*/
+      display: flex;
+      width: 90px;
+      justify-content: center;
+      color: #2F4F4F;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .button:hover { /*ok*/
+      color: #9370DB;
+      font-size: 19px;
+      text-shadow: white 1px 0 10px;
+      transition: font-size 0.4s;
+      }
+
+    .social {
+      position: fixed;
+      right: -20px;
+      bottom: 20px;
+      flex-direction: column;
+      padding: 10px 0;
+      }
+
+    .img:active,
+    .img2:active {
+      transform: scale(1.1);
+      transition-duration: 0.5s;
+    }
+
+    h1 {
+      font-size: 16px;
+    }
+
+    .intestazione-form {
+      padding: 25px 10px 7px 10px;
+      background-color: pink;
+      width: 100%;
+      font-size: 14px;
+    }
+
+      .intestazione-form > h1 {
+        font-size: 25px;
+      }
+
+      .intestazione-form > p {
+              font-size: 14px;
+            }
+
+    .form-row input[type="text"],
+    .form-row input[type="email"],
+    .form-row input[type="question"] {
+      background-color: #FFFFFF;
+      border: 1px solid #D6D9DC;
+      border-radius: 7px;
+      width: 100%;
+      padding: 7px;
+      font-size: 10px;
+      min-height: 30px;
+    }
+
+    .form-row textarea {
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 10px;
+
+      border: 1px solid #D6D9DC;
+      border-radius: 7px;
+
+      min-height: 40px;
+      margin-bottom: 10px;
+      padding: 7px;
+      resize: none;
+    }
+
+    .button2 {
+      font-size: 16px;
+      height: 40px;
+      align-items: center;
+    }
+
+    .titolo > h3 {
+      font-size: 10px;
+      text-align: center;
+    }
+
+    .sommario {
+      font-size: 10px;
+      padding: 1px 15px;
+    }
+
+    .imgdiploma {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin-top: 20px;
+    }
+
+    .imgqualita {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      margin: 20px 0;
+    }
+
+    .imgbustepaga {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-top: 20px;
+    }
+
+    .imgs2i {
+      display: block;
+      width: 100px;
+      margin: 1px 0;
+    }
+
+    .newjob {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin-top: 20px;
+    }
+
+    .totcommento {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      height: 100px;
+      border: 1px solid silver;
+      border-radius: 10px;
+      box-shadow: 0 0 20px silver;
+    }
+
+    .avatar {
+      display: none;
+    }
+
+    .nomeutente {
+      display: none;
+    }
+
+    .commentoutente {
+      display: flex;
+      width: 100%;
+      height: 80px;
+      /*border: 1px solid red;*/
+      align-items: flex-start;
+      margin: 2px 2px;
+      font-family: helvetica;
+      font-size: 7px;
+    }
+
+    .riga > h5 {
+      font-size: 10px;;
+    }
+}
+
+@media only screen and (min-width: 401px ) and (max-width: 960px) {
+
+    .page {
+      background-color: white;
+    }
+
+    .menu { /*ok*/
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      height: 65px;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .img-content {
+      justify-content: center;
+      float: left;
+      top: 160px;
+      left: 50px;
+      width: 460px;
+      max-height: 350px;
+      background-color: white;
+      position: relative;
+      display: block;
+      box-shadow: 10px 10px 5px #aaaaaa;
+      border: 1px solid #BFBFBF;
+      ms-transform: rotate(3deg);
+      webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+
+    .animazione-testo {
+      float: right;
+      width: 100%;
+      background-color: white;
+      align-items: center;
+      justify-content: flex-start;
+      display: flow-root;
+      padding: 140px 50px 100px 90px;
+    }
+
+    .button { /*ok*/
+      display: flex;
+      width: 160px;
+      justify-content: center;
+      color: #2F4F4F;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .button:hover { /*ok*/
+      color: #9370DB;
+      font-size: 22px;
+      text-shadow: white 1px 0 10px;
+      transition: font-size 0.4s;
+      }
+
+    .social {
+      position: fixed;
+      right: -65px;
+      bottom: 20px;
+      flex-direction: column;
+      padding: 10px 0;
+  }
+
+    .img {
+      padding-bottom: 10px;
+    }
+
+    .intestazione-form {
+      padding: 20px 20px 7px 20px;
+      background-color: pink;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .form-row input[type="text"],
+    .form-row input[type="email"],
+    .form-row input[type="question"] {
+      background-color: #FFFFFF;
+      border: 1px solid #D6D9DC;
+      border-radius: 7px;
+      width: 100%;
+      padding: 7px;
+      font-size: 12px;
+    }
+
+    .form-row textarea {
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 12px;
+
+      border: 1px solid #D6D9DC;
+      border-radius: 7px;
+
+      min-height: 100px;
+      margin-bottom: 10px;
+      padding: 7px;
+      resize: none;
+    }
+
+    .button2 {
+      font-size: 16px;
+      height: 40px;
+      align-items: center;
+    }
+
+    .header { /*ok*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      height: 50px;
+      width: 100%;
+      background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/header.png);
+      z-index: 1;
+    }
+
+    .skillcontent {
+      width: 100%;
+      height: 620px;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 100px;
+      margin-top: -20px;
+    }
+
+    .imgdiploma {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+
+    .imgqualita {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      margin: 20px 0;
+    }
+
+    .imgbustepaga {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55%;
+      margin-top: 20px;
+    }
+
+    .imgs2i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-top: 10px;
+    }
+
+    .newjob {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin-top: 10px;
+    }
+
+    .totcommento {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      height: 120px;
+      border: 1px solid silver;
+      border-radius: 10px;
+      box-shadow: 0 0 20px silver;
+    }
+
+    .avatar {
+      display: flex;
+      justify-content: flex-start;
+      width: 100px;
+      height: 89px;
+      /*border: 1px solid red;*/
+      border-radius: 50px;
+      background-image: url(C:/Users/Dell/Desktop/mrizi-portfolio/assets/images/avatar.png);
+    }
+
+    .nomeutente {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    .commentoutente {
+      display: flex;
+      width: 100%;
+      height: 100px;
+      /*border: 1px solid red;*/
+      align-items: flex-start;
+      margin: 2px 10px;
+      font-family: helvetica;
+      font-size: 11px;
+    }
+}

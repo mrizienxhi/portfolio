@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-.page { /*ok*/
+.page { /* ok*/
   display: inline-grid;
   flex-wrap: wrap;
   width: 100%;

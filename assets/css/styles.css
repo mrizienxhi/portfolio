@@ -441,7 +441,7 @@ p {
 
     .page {
       background-color: white;
-      overflow: visible;
+      overflow: auto;
     }
 
     .content {

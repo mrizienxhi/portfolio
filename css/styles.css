@@ -442,7 +442,7 @@ p {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 500px ) {
+@media only screen and (max-width: 450px ) {
 
     .page {
       background-color: white;
@@ -468,7 +468,7 @@ p {
       align-items: center;
     }
 
-    .animazione-testo {
+    .animazione {
       display: flex;
       width: 100%;
       background-color: white;
@@ -666,7 +666,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 501px ) and (max-width: 960px) {
+@media only screen and (min-width: 451px ) and (max-width: 960px) {
 
     .page {
       background-color: white;
@@ -715,7 +715,7 @@ p {
       font-size: 25px;
     }
 
-    .animazione-testo {
+    .animazione {
       float: right;
       width: 100%;
       background-color: white;

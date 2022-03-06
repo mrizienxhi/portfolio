@@ -21,7 +21,7 @@
   position: fixed;
   height: 65px;
   width: 100%;
-  background-image: url(assets/images/sfondo.png);
+  background-image: url(../images/bg.png);
   z-index: 1;
 }
 
@@ -133,7 +133,7 @@
 
 .intestazione-form {
   padding: 30px 50px 7px 50px;
-  background-image: url(assets/images/sfondo.png);
+  background-image: url(../images/bg.png);
   width: 100%;
   border-radius: 10px;
 }
@@ -193,7 +193,7 @@
   justify-content: center;
   padding: 5px 10px;
   border: 1px dotted silver;
-  background-image: url(assets/images/sfondo.png);
+  background-image: url(../images/bg.png);
   width: 100%;
   cursor: pointer;
   border-radius: 6px;
@@ -260,7 +260,7 @@ p {
   justify-content: center;
   align-items: flex-end;
   height: 40px;
-  background-image: url(assets/images/sfondo.png);
+  background-image: url(../images/bg.png);
   border-radius: 20px;
 }
 
@@ -406,7 +406,7 @@ p {
   height: 89px;
   /*border: 1px solid red;*/
   border-radius: 50px;
-  background-image: url(assets/images/avatar.png);
+  background-image: url(../images/avatar.png);
   margin-left: 10px;
 }
 
@@ -778,7 +778,7 @@ p {
       position: fixed;
       height: 50px;
       width: 100%;
-      background-image: url(assets/images/header.png);
+      background-image: url(bg.png);
       z-index: 1;
     }
 

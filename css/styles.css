@@ -470,8 +470,23 @@ p {
       align-items: center;
       justify-content: center;
       display: block;
-      padding: 100px 60px 80px 60px;
+      padding: 80px 60px 80px 60px;
     }
+
+  .animazione-testo > #titolo {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 0 0 6px #E6E6FA, 0 0 8px #808080;
+  }
+
+  .animazione-testo > p {
+    font-size: 18px;
+  }
+
+  .animazione-testo > #elencoparole {
+    font-size: 25px;
+  }
 
     .menu { /*ok*/
       display: flex;
@@ -641,8 +656,8 @@ p {
       font-size: 7px;
     }
 
-    .riga > h5 {
-      font-size: 10px;;
+    .annot > h5 {
+      font-size: 12px;
     }
 }
 

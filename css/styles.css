@@ -200,14 +200,17 @@
   border: 1px dotted silver;
   background-image: url(../images/bg.png);
   width: 100%;
+  color: #2F4F4F;
   cursor: pointer;
   border-radius: 6px;
   margin-bottom: 0;
+  text-decoration: none;
 }
 
 .button2:hover {
-  text-decoration: none;
-  text-shadow: white 1px 0 10px;
+  color: #9370DB;
+  font-size: 20px;
+  transition: font-size 0.4s;
 }
 
 p {
@@ -440,6 +443,23 @@ p {
   margin: 2px 10px;
   font-family: helvetica;
   font-size: 12px;
+}
+
+.testoerrore {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid orange;
+  height: 170px;
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #2F4F4F;
+  background-color: #F0E68C;
 }
 
 @media only screen and (max-width: 450px ) {

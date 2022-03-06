@@ -54,7 +54,7 @@
   align-items: center;
 }
 
-.content { /*ok*/
+#content { /*ok*/
   display: flex;
   width: 100%;
   background-color: white;
@@ -444,7 +444,7 @@ p {
       overflow: auto;
     }
 
-    .content {
+    #content {
       align-items: center;
       height: 700px;
     }
@@ -662,7 +662,7 @@ p {
       z-index: 1;
     }
 
-    .content {
+    #content {
       height: 500px;
     }
 

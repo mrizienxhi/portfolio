@@ -778,7 +778,7 @@ p {
       position: fixed;
       height: 50px;
       width: 100%;
-      background-image: url(bg.png);
+      background-image: url(../images/bg.png);
       z-index: 1;
     }
 
@@ -848,7 +848,7 @@ p {
       height: 89px;
       /*border: 1px solid red;*/
       border-radius: 50px;
-      background-image: url(assets/images/avatar.png);
+      background-image: url(../images/avatar.png);
     }
 
     .nomeutente {

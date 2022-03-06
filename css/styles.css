@@ -78,7 +78,7 @@
   transform: rotate(3deg);
 }
 
-.animazione-testo {
+.animazione {
   float: right;
   width: 100%;
   background-color: white;
@@ -86,7 +86,12 @@
   justify-content: flex-start;
   display: flow-root;
   padding: 170px 90px 100px 220px;
-  }
+}
+
+.animazione-testo{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 #titolo {
   font-size: 40px;
@@ -437,16 +442,16 @@ p {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 400px ) {
+@media only screen and (max-width: 500px ) {
 
     .page {
       background-color: white;
-      overflow: auto;
     }
 
     #content {
       align-items: center;
-      height: 700px;
+      height: 600px;
+      margin-top: 20px;
     }
 
     .img-content {
@@ -470,7 +475,7 @@ p {
       align-items: center;
       justify-content: center;
       display: block;
-      padding: 50px 60px 80px 60px;
+      padding: 0 60px;
     }
 
   .animazione-testo > #titolo {
@@ -661,7 +666,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 401px ) and (max-width: 960px) {
+@media only screen and (min-width: 501px ) and (max-width: 960px) {
 
     .page {
       background-color: white;
